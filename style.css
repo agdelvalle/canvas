@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+margin: 10%;
+}
+
+.button{
+    padding: 10px;
+    background-color: lightslategray;
+    color: black;
+}
+
+canvas{
+    border: 2px solid black;
+    margin: 10% 15%;
+} 
