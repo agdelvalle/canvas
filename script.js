@@ -40,6 +40,7 @@ function drawLine(e){
 function changeColor(){
     rainbow = false; 
     ctx.strokeStyle = colorPicker.value;
+    button.style.setProperty("background-color", "lightslategray")
 }
 
 function changeRainbow(){
@@ -61,4 +62,4 @@ canvas.addEventListener('mousedown', (e)=>{
 canvas.addEventListener('mouseup', ()=>isDrawing = false);
 canvas.addEventListener('mouseout', ()=> isDrawing = false);
 button.addEventListener('click', changeRainbow); 
-colorPicker.addEventListener('change',)
+colorPicker.addEventListener('change',changeColor)
